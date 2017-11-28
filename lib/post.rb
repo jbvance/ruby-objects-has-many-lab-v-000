@@ -6,4 +6,8 @@ def initialize(title)
   @title = title
 end
 
+def author_name
+  @author.name || nil
+end
+
 end
